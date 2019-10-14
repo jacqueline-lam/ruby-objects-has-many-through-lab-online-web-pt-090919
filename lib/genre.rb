@@ -19,4 +19,5 @@ class Genre
   def artists # Return array of artist instances in this genre
     songs.map {|song| song.artist} 
   end
+  
 end
